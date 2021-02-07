@@ -1,0 +1,2 @@
+docker run --name sandwich_db_run -e POSTGRES_PASSWORD=password -p 5432:5432 --network bridge -d postgres
+docker run --name sandwich1 -e SPRING_PROFILES_ACTIVE=docker -p 1000:8080 --network bridge sandwich_service
