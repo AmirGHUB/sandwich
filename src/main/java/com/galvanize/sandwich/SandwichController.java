@@ -21,7 +21,7 @@ public class SandwichController {
 
     @GetMapping("/home")
     public String getHome() {
-        return "Welcome Home! Manual Deploy";
+        return "Welcome Home! Auto Deploy";
     }
 
     @GetMapping("/sandwiches")
